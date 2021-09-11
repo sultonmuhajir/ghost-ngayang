@@ -13,22 +13,22 @@ y_obj = 430
 lompat = False
 jumpCount = 10
 
-music = pygame.mixer.music.load('asset/backsound.mp3')
+music = pygame.mixer.music.load('assets/backsound.mp3')
 pygame.mixer.music.play()
 
-bg = pygame.image.load('asset/bg.jpg')
+bg = pygame.image.load('assets/img/bg.jpg')
 bg = pygame.transform.scale(bg, (800,600))
 
-objek = pygame.image.load('asset/ghost.png')
+objek = pygame.image.load('assets/img/ghost.png')
 objek = pygame.transform.scale(objek, (150,150))
 
-roket = pygame.image.load('asset/rocket.png')
+roket = pygame.image.load('assets/img/rocket.png')
 roket = pygame.transform.scale(roket, (100,60))
 
-api = pygame.image.load('asset/fire.png')
+api = pygame.image.load('assets/img/fire.png')
 api = pygame.transform.scale(api, (180,230))
 
-go = pygame.image.load('asset/go.png')
+go = pygame.image.load('assets/img/go.png')
 go = pygame.transform.scale(go, (400,250))
 
 font = pygame.font.SysFont('comicsans',30,True)
